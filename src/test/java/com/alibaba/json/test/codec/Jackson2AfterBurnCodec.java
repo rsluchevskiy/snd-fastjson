@@ -1,3 +1,18 @@
+/*
+*    ------ BEGIN LICENSE ATTRIBUTION ------
+*    
+*    Portions of this file have been appropriated or derived from the following project(s) and therefore require attribution to the original licenses and authors.
+*    
+*    Release: https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-2.6.7.3
+*    Source File: ObjectReader.java
+*    Licenses:
+*      Apache License 2.0
+*      SPDXId: Apache-2.0
+*    
+*    Auto-attribution by Threatrix, Inc.
+*    
+*    ------ END LICENSE ATTRIBUTION ------
+*/
 package com.alibaba.json.test.codec;
 
 import java.io.IOException;
