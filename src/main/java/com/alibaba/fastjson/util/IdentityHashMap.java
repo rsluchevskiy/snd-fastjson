@@ -1,4 +1,199 @@
 /*
+*    ------ BEGIN LICENSE ATTRIBUTION ------
+*    
+*    Portions of this file have been appropriated or derived from the following project(s) and therefore require attribution to the original licenses and authors.
+*    
+*    Release: https://github.com/google/guava/releases/tag/v6.0
+*    Source File: Serialization.java
+*    
+*    Copyrights:
+*      copyright (c) 2008 google inc
+*    
+*    Licenses:
+*      Apache License 2.0
+*      SPDXId: Apache-2.0
+*    
+*    
+*    Release: https://github.com/google/guava/releases/tag/v6.0
+*    Source File: ImmutableMultimap.java
+*    
+*    Copyrights:
+*      copyright (c) 2008 google inc
+*    
+*    Licenses:
+*      Apache License 2.0
+*      SPDXId: Apache-2.0
+*    
+*    
+*    Release: https://github.com/google/guava/releases/tag/v6.0
+*    Source File: LinkedListMultimap.java
+*    
+*    Copyrights:
+*      copyright (c) 2007 google inc
+*    
+*    Licenses:
+*      Apache License 2.0
+*      SPDXId: Apache-2.0
+*    
+*    
+*    Release: https://github.com/google/guava/releases/tag/v6.0
+*    Source File: TreeMultimap.java
+*    
+*    Copyrights:
+*      copyright (c) 2007 google inc
+*    
+*    Licenses:
+*      Apache License 2.0
+*      SPDXId: Apache-2.0
+*    
+*    
+*    Release: https://github.com/google/guava/releases/tag/v2.0
+*    Source File: Maps.java
+*    
+*    Copyrights:
+*      copyright (c) 2007 google inc
+*    
+*    Licenses:
+*      Apache License 2.0
+*      SPDXId: Apache-2.0
+*    
+*    
+*    Release: https://github.com/google/guava/releases/tag/v2.0
+*    Source File: ImmutableEnumSet.java
+*    
+*    Copyrights:
+*      copyright (c) 2009 google inc
+*    
+*    Licenses:
+*      Apache License 2.0
+*      SPDXId: Apache-2.0
+*    
+*    
+*    Release: https://github.com/google/guava/releases/tag/v6.0
+*    Source File: Platform.java
+*    
+*    Copyrights:
+*      copyright (c) 2008 google inc
+*    
+*    Licenses:
+*      Apache License 2.0
+*      SPDXId: Apache-2.0
+*    
+*    
+*    Release: https://github.com/google/guava/releases/tag/v6.0
+*    Source File: Multimaps.java
+*    
+*    Copyrights:
+*      copyright (c) 2007 google inc
+*    
+*    Licenses:
+*      Apache License 2.0
+*      SPDXId: Apache-2.0
+*    
+*    
+*    Release: https://github.com/google/guava/releases/tag/v6.0
+*    Source File: EnumMultiset.java
+*    
+*    Copyrights:
+*      copyright (c) 2007 google inc
+*    
+*    Licenses:
+*      Apache License 2.0
+*      SPDXId: Apache-2.0
+*    
+*    
+*    Release: https://github.com/google/guava/releases/tag/v6.0
+*    Source File: Iterators.java
+*    
+*    Copyrights:
+*      copyright (c) 2007 google inc
+*    
+*    Licenses:
+*      Apache License 2.0
+*      SPDXId: Apache-2.0
+*    
+*    
+*    Release: https://github.com/google/guava/releases/tag/v6.0
+*    Source File: AbstractBiMap.java
+*    
+*    Copyrights:
+*      copyright (c) 2007 google inc
+*    
+*    Licenses:
+*      Apache License 2.0
+*      SPDXId: Apache-2.0
+*    
+*    
+*    Release: https://github.com/google/guava/releases/tag/v6.0
+*    Source File: ImmutableListMultimap.java
+*    
+*    Copyrights:
+*      copyright (c) 2008 google inc
+*    
+*    Licenses:
+*      Apache License 2.0
+*      SPDXId: Apache-2.0
+*    
+*    
+*    Release: https://github.com/google/guava/releases/tag/v6.0
+*    Source File: LinkedHashMultimap.java
+*    
+*    Copyrights:
+*      copyright (c) 2007 google inc
+*    
+*    Licenses:
+*      Apache License 2.0
+*      SPDXId: Apache-2.0
+*    
+*    
+*    Release: https://github.com/google/guava/releases/tag/v6.0
+*    Source File: TreeMultiset.java
+*    
+*    Copyrights:
+*      copyright (c) 2007 google inc
+*    
+*    Licenses:
+*      Apache License 2.0
+*      SPDXId: Apache-2.0
+*    
+*    
+*    Release: https://github.com/google/guava/releases/tag/v6.0
+*    Source File: ImmutableSetMultimap.java
+*    
+*    Copyrights:
+*      copyright (c) 2009 google inc
+*    
+*    Licenses:
+*      Apache License 2.0
+*      SPDXId: Apache-2.0
+*    
+*    
+*    Release: https://github.com/google/guava/releases/tag/v6.0
+*    Source File: Collections2.java
+*    
+*    Copyrights:
+*      copyright (c) 2008 google inc
+*    
+*    Licenses:
+*      Apache License 2.0
+*      SPDXId: Apache-2.0
+*    
+*    
+*    Release: https://github.com/google/guava/releases/tag/v6.0
+*    Source File: ImmutableMultiset.java
+*    
+*    Copyrights:
+*      copyright (c) 2008 google inc
+*    
+*    Licenses:
+*      Apache License 2.0
+*      SPDXId: Apache-2.0
+*    
+*    Auto-attribution by Threatrix, Inc.
+*    
+*    ------ END LICENSE ATTRIBUTION ------
+*/
+/*
  * Copyright 1999-2017 Alibaba Group.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
