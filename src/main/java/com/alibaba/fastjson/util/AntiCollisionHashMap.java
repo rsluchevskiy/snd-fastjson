@@ -1,3 +1,22 @@
+/*
+*    ------ BEGIN LICENSE ATTRIBUTION ------
+*    
+*    Portions of this file have been appropriated or derived from the following project(s) and therefore require attribution to the original licenses and authors.
+*    
+*    Release: https://github.com/google/guava/releases/tag/v2.0
+*    Source File: CustomConcurrentHashMap.java
+*    
+*    Copyrights:
+*      copyright (c) 2009 google inc
+*    
+*    Licenses:
+*      Apache License 2.0
+*      SPDXId: Apache-2.0
+*    
+*    Auto-attribution by Threatrix, Inc.
+*    
+*    ------ END LICENSE ATTRIBUTION ------
+*/
 package com.alibaba.fastjson.util;
 
 import java.io.IOException;
