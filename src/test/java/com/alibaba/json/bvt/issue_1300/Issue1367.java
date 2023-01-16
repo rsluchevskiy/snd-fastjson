@@ -1,3 +1,23 @@
+/*
+*    ------ BEGIN LICENSE ATTRIBUTION ------
+*    
+*    Portions of this file have been appropriated or derived from the following project(s) and therefore require attribution to the original licenses and authors.
+*    
+*    Project: https://spring.io/projects/spring-boot
+*    Release: https://github.com/spring-projects/spring-boot/releases/tag/v1.4.0.M1
+*    Source File: HypermediaEndpointDocumentation.java
+*    
+*    Copyrights:
+*      copyright 2012-2016 the original author or authors
+*    
+*    Licenses:
+*      Apache License 2.0
+*      SPDXId: Apache-2.0
+*    
+*    Auto-attribution by Threatrix, Inc.
+*    
+*    ------ END LICENSE ATTRIBUTION ------
+*/
 package com.alibaba.json.bvt.issue_1300;
 
 import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
