@@ -1,3 +1,22 @@
+/*
+*    ------ BEGIN LICENSE ATTRIBUTION ------
+*    
+*    Portions of this file have been appropriated or derived from the following project(s) and therefore require attribution to the original licenses and authors.
+*    
+*    Release: https://github.com/google/guava/releases/tag/v16.0
+*    Source File: FreshValueGenerator.java
+*    
+*    Copyrights:
+*      copyright (c) 2012 the guava authors
+*    
+*    Licenses:
+*      Apache License 2.0
+*      SPDXId: Apache-2.0
+*    
+*    Auto-attribution by Threatrix, Inc.
+*    
+*    ------ END LICENSE ATTRIBUTION ------
+*/
 package com.alibaba.fastjson.parser.deserializer;
 
 import static com.alibaba.fastjson.util.ASMUtils.desc;
